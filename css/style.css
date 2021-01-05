@@ -47,6 +47,7 @@ header .hamburger-menu .line {
 }
 
 header nav {
+  padding: 0 2.4rem;
   padding-top: 3.87rem;
   z-index: 999999;
   background: #3b3054;
@@ -85,6 +86,7 @@ header nav .nav-left {
 
 header nav ul {
   text-align: center;
+  width: 100%;
 }
 
 header nav ul li {
@@ -106,10 +108,13 @@ header nav .nav-right li {
   margin-bottom: 3.5rem;
 }
 
-header nav .nav-right li .button {
-  padding: 1.15rem 10.4rem;
+header nav .nav-right li:last-child {
+  background: #2acfcf;
+  padding: 1.15rem;
   border-radius: 2.5rem;
   background: #2acfcf;
+  max-width: 45rem;
+  margin: auto;
 }
 
 header nav.open {

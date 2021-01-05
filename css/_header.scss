@@ -26,6 +26,7 @@ header{
   nav{
     // padding-top: 0.7rem;
     // padding-top: 0.35rem;
+    padding: 0 2.4rem;
     padding-top: 3.87rem;
     z-index: 999999;
     background: $dark-violet;
@@ -51,6 +52,7 @@ header{
 
     ul{
       text-align: center;
+      width: 100%;
 
       li{
         margin-bottom: 3rem;
@@ -70,11 +72,13 @@ header{
       li{
         margin-bottom: 3.5rem;
 
-        .button{
-          // margin-top: 1rem;
-          padding: 1.15rem 10.4rem;
+        &:last-child{
+          background: $cyan;
+          padding: 1.15rem;
           border-radius: 2.5rem;
           background: $cyan;
+          max-width: 45rem;
+          margin: auto;
         }
       }
     }
