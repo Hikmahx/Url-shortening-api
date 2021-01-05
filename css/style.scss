@@ -23,4 +23,11 @@ html{
   font-family: 'Poppins', sans-serif;
 }
 
+@mixin flexCenter($direction) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+}
+
 @import './header';
