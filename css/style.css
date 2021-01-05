@@ -48,14 +48,12 @@ header .hamburger-menu .line {
 
 header nav {
   padding-top: 3.87rem;
-  visibility: visible;
-  opacity: 1;
   z-index: 999999;
   background: #3b3054;
   color: #fff;
   height: 68.2%;
   position: fixed;
-  top: 17.2%;
+  top: -100%;
   left: 6.5%;
   right: 6.5%;
   border-radius: 1rem;
@@ -75,8 +73,8 @@ header nav {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-transition: top 0.2s ease-in-out;
-  transition: top 0.2s ease-in-out;
+  -webkit-transition: top 0.4s ease-in-out;
+  transition: top 0.4s ease-in-out;
 }
 
 header nav .nav-left {
@@ -91,6 +89,10 @@ header nav ul {
 
 header nav ul li {
   margin-bottom: 3rem;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.4s ease-in 0.3s;
+  transition: 0.4s ease-in 0.3s;
 }
 
 header nav ul li a {
@@ -108,5 +110,14 @@ header nav .nav-right li .button {
   padding: 1.15rem 10.4rem;
   border-radius: 2.5rem;
   background: #2acfcf;
+}
+
+header nav.open {
+  top: 17.2%;
+}
+
+header nav.open ul li {
+  visibility: visible;
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
