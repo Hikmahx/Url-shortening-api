@@ -79,7 +79,7 @@ header nav {
 }
 
 header nav .nav-left {
-  width: 85%;
+  width: 100%;
   border-bottom: 0.1rem #544a6d solid;
   margin-bottom: 3.2rem;
 }
@@ -100,17 +100,17 @@ header nav ul li {
 header nav ul li a {
   color: #fff;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.2px;
 }
 
 header nav .nav-right li {
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.5rem;
 }
 
 header nav .nav-right li:last-child {
   background: #2acfcf;
-  padding: 1.15rem;
+  padding: 1.05rem;
   border-radius: 2.5rem;
   background: #2acfcf;
   max-width: 45rem;
@@ -124,5 +124,89 @@ header nav.open {
 header nav.open ul li {
   visibility: visible;
   opacity: 1;
+}
+
+@media (min-width: 950px) {
+  header {
+    overflow: hidden;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 4rem 10rem;
+  }
+  header .logo {
+    margin-top: 0.5rem;
+    height: 2rem;
+  }
+  header .logo img {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  header .hamburger-menu {
+    display: none;
+  }
+  header nav {
+    padding: 0;
+    left: 0;
+    position: relative;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  header nav .nav-left {
+    border: 0;
+    margin: 0 3rem;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header nav ul li {
+    visibility: visible;
+    opacity: 1;
+    margin: 0 1.6rem;
+  }
+  header nav ul li a {
+    color: #9e9aa7;
+    font-size: 1.5rem;
+  }
+  header nav .nav-right {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  header nav .nav-right li {
+    margin: 0 1.6rem;
+  }
+  header nav .nav-right li:last-child {
+    margin: 0;
+  }
+  header nav .nav-right li:last-child a {
+    color: #fff;
+  }
 }
 /*# sourceMappingURL=style.css.map */

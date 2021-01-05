@@ -45,7 +45,7 @@ header{
 
     .nav-left{
       // margin-top: -1rem;
-      width: 85%;
+      width: 100%;
       border-bottom: 0.1rem #544a6d solid;
       margin-bottom: 3.2rem;
     }
@@ -62,7 +62,7 @@ header{
         a{
           color: #fff;
           font-size: 1.8rem;
-          font-weight: 500;
+          font-weight: 700;
           letter-spacing: 0.2px;
         }
       }
@@ -70,11 +70,11 @@ header{
 
     .nav-right{
       li{
-        margin-bottom: 3.5rem;
+        margin-bottom: 2.5rem;
 
         &:last-child{
           background: $cyan;
-          padding: 1.15rem;
+          padding: 1.05rem;
           border-radius: 2.5rem;
           background: $cyan;
           max-width: 45rem;
@@ -90,6 +90,77 @@ header{
       li{
         visibility: visible;
         opacity: 1;
+      }
+    }
+  }
+}
+
+@media(min-width: 950px) {
+  header{
+    overflow: hidden;
+    justify-content: space-between;
+    margin: 4rem 10rem;
+
+    .logo{
+      margin-top: 0.5rem;
+      height:2rem;
+
+      img{
+        transform: scale(0.8);
+      }
+    }
+
+    .hamburger-menu{
+      display: none;
+    }
+
+    nav{
+      padding: 0;
+      left: 0;
+      position: relative;
+      background-color: #fff;
+      @include flexCenter(row);
+      justify-content: space-between;
+      width: 100%;
+
+      .nav-left{
+        border: 0;
+        margin: 0 3rem;
+        width: max-content;
+      }
+
+      ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        li{
+          visibility: visible;
+          opacity: 1;
+          margin: 0 1.6rem;
+
+          a{
+            color: $grayish-violet;
+            font-size: 1.5rem;
+          }
+        }
+      }
+
+      .nav-right{
+        width: max-content;
+
+        li{
+          margin: 0 1.6rem;
+
+          &:last-child{
+            margin: 0;
+
+
+            a{
+              color: #fff;
+            }
+          }
+        }
       }
     }
   }
