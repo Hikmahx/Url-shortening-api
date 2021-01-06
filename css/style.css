@@ -126,9 +126,9 @@ header nav.open ul li {
   opacity: 1;
 }
 
+/* TABLET AND DESKTOP VIEW*/
 @media (min-width: 950px) {
   header {
-    overflow: hidden;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -192,7 +192,7 @@ header nav.open ul li {
   }
   header nav ul li a {
     color: #9e9aa7;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   header nav .nav-right {
     width: -webkit-max-content;
@@ -207,6 +207,40 @@ header nav.open ul li {
   }
   header nav .nav-right li:last-child a {
     color: #fff;
+  }
+}
+
+@media (min-width: 1200px) {
+  header {
+    margin: 4.2rem 14.2rem;
+  }
+  header .logo img {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  header nav .nav-left {
+    margin: 0 2rem;
+  }
+  header nav ul li {
+    margin: 0 1.4rem;
+  }
+  header nav ul li a {
+    letter-spacing: -0.5px;
+  }
+  header nav .nav-right {
+    margin-right: 0.3rem;
+  }
+  header nav .nav-right li {
+    margin: 0 3.4rem;
+  }
+  header nav .nav-right li:last-child {
+    width: 9.5rem;
+    padding: 0.8rem;
+  }
+  header nav .nav-right li:last-child a {
+    font-weight: 500;
+    font-size: 1.3rem;
+    letter-spacing: 0.2px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -95,9 +95,11 @@ header{
   }
 }
 
+/* TABLET AND DESKTOP VIEW*/ 
+
 @media(min-width: 950px) {
   header{
-    overflow: hidden;
+    // overflow: hidden;
     justify-content: space-between;
     margin: 4rem 10rem;
 
@@ -141,7 +143,7 @@ header{
 
           a{
             color: $grayish-violet;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
           }
         }
       }
@@ -158,6 +160,54 @@ header{
 
             a{
               color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(min-width: 1200px) {
+  header{
+    margin: 4.2rem 14.2rem;
+
+    .logo{
+      img{
+        transform: scale(0.9);
+      }
+    }
+
+    nav{
+      .nav-left{
+        margin: 0 2rem;
+        // margin-top: -0.3rem;
+      }
+
+      ul{
+        li{
+          margin: 0 1.4rem;
+          a{
+            // letter-spacing: 0;
+            letter-spacing: -0.5px;
+          }
+        }
+      }
+
+      .nav-right{
+        margin-right: 0.3rem;
+
+        li{
+          margin: 0 3.4rem;
+
+          &:last-child{
+            width: 9.5rem;
+            padding: 0.8rem;
+
+            a{
+              font-weight: 500;
+              font-size: 1.3rem;
+              letter-spacing: 0.2px;
             }
           }
         }
