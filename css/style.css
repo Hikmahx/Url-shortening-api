@@ -353,4 +353,32 @@ header nav.open ul li {
     font-size: 5rem;
   }
 }
+
+@media (min-width: 950px) {
+  .hero {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    height: 38rem;
+  }
+  .hero .hero-image img {
+    right: -10rem;
+  }
+  .hero .hero-text {
+    text-align: left;
+    margin: 0 0 0 8rem;
+    width: 125rem;
+  }
+  .hero .hero-text h1 {
+    font-size: 6rem;
+    line-height: 6.5rem;
+  }
+  .hero .hero-text p {
+    padding: 0;
+  }
+  .hero .hero-text button {
+    width: 35%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
