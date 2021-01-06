@@ -11,9 +11,12 @@
     padding: 0rem 2.5rem;
     // @include flexCenter(column);
     position: relative;
+
     img{
       position: absolute;
+      right: -14.7rem;
       width: 132.5%;
+      max-width: 55rem;
     // transform: scale(0.5);    
     }
   }
@@ -22,6 +25,7 @@
     text-align: center;
     padding-top: 1.3rem;
     font-size: 1.8rem;
+    max-width: 50rem;
 
     h1{
       font-size: 4.2rem;

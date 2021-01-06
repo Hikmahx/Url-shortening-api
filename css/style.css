@@ -308,13 +308,16 @@ header nav.open ul li {
 
 .hero .hero-image img {
   position: absolute;
+  right: -14.7rem;
   width: 132.5%;
+  max-width: 55rem;
 }
 
 .hero .hero-text {
   text-align: center;
   padding-top: 1.3rem;
   font-size: 1.8rem;
+  max-width: 50rem;
 }
 
 .hero .hero-text h1 {
