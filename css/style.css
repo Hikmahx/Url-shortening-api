@@ -346,4 +346,11 @@ header nav.open ul li {
   margin: 3rem auto;
   border: none;
 }
+
+/* TABLET AND DESKTOP */
+@media (min-width: 750px) {
+  .hero .hero-text h1 {
+    font-size: 5rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
