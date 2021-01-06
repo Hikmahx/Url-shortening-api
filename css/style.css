@@ -16,7 +16,7 @@ html {
 
 /* MOBILE FIRST */
 header {
-  margin: 4rem 2.34rem;
+  margin: 4rem 2.34rem 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -278,5 +278,69 @@ header nav.open ul li {
   header nav .nav-right li:last-child a {
     font-size: 1.4rem;
   }
+}
+
+.hero {
+  width: 100%;
+  margin: 3.3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.hero .hero-image {
+  width: 100%;
+  height: 35rem;
+  padding: 0rem 2.5rem;
+  position: relative;
+}
+
+.hero .hero-image img {
+  position: absolute;
+  width: 132.5%;
+}
+
+.hero .hero-text {
+  text-align: center;
+  padding-top: 1.3rem;
+  font-size: 1.8rem;
+}
+
+.hero .hero-text h1 {
+  font-size: 4.2rem;
+  line-height: 4.9rem;
+  letter-spacing: -1.2px;
+  color: #35323e;
+}
+
+.hero .hero-text p {
+  padding: 1.2rem 3rem 0;
+  line-height: 3rem;
+  color: #9e9aa7;
+}
+
+.hero .hero-text button {
+  width: 52%;
+  padding: 1.48rem;
+  border-radius: 3rem;
+  background: #2acfcf;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 3rem auto;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
