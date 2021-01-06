@@ -243,4 +243,40 @@ header nav.open ul li {
     letter-spacing: 0.2px;
   }
 }
+
+@media (min-width: 1400px) {
+  header {
+    margin: 5rem 16.7rem;
+  }
+  header .logo img {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  header nav {
+    margin-top: -0.3rem;
+  }
+  header nav .nav-left {
+    margin: 0 3rem;
+  }
+  header nav ul li {
+    margin: 0 1.5rem;
+  }
+  header nav ul li a {
+    font-size: 1.5rem;
+    letter-spacing: 0.1px;
+  }
+  header nav .nav-right {
+    margin-right: -0.2rem;
+  }
+  header nav .nav-right li {
+    margin: 0 3.7rem;
+  }
+  header nav .nav-right li:last-child {
+    width: 10.5rem;
+    padding: 1rem;
+  }
+  header nav .nav-right li:last-child a {
+    font-size: 1.4rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

@@ -215,3 +215,49 @@ header{
     }
   }
 }
+
+@media(min-width: 1400px) {
+  header{
+    margin: 5rem 16.7rem;
+
+    .logo{
+      img{
+        transform: scale(1);
+      }
+    }
+
+    nav{
+      margin-top: -0.3rem;
+      .nav-left{
+        margin: 0 3rem;
+      }
+
+      ul{
+        li{
+          margin: 0 1.5rem;
+          a{
+            font-size: 1.5rem;
+            letter-spacing: 0.1px;
+          }
+        }
+      }
+
+      .nav-right{
+        margin-right: -0.2rem;
+
+        li{
+          margin: 0 3.7rem;
+
+          &:last-child{
+          width: 10.5rem;
+          padding: 1rem;
+
+            a{
+              font-size: 1.4rem;
+            }
+          }
+        } 
+      }
+    }
+  }
+}
