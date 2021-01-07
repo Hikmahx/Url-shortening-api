@@ -403,6 +403,7 @@ header nav.open ul li {
   }
   .hero .hero-text p {
     font-size: 2rem;
+    word-spacing: -2px;
   }
   .hero .hero-text button {
     font-weight: 500;
