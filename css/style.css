@@ -412,4 +412,36 @@ header nav.open ul li {
     padding: 1.25rem;
   }
 }
+
+@media (min-width: 1400px) {
+  .hero {
+    height: 62rem;
+  }
+  .hero .hero-image img {
+    max-width: 73.5rem;
+    top: -5.5rem;
+    right: -12.5rem;
+  }
+  .hero .hero-text {
+    margin: -6rem 0 0 16.5rem;
+  }
+  .hero .hero-text h1 {
+    font-size: 8.1rem;
+    line-height: 9rem;
+    letter-spacing: -0.3rem;
+    word-spacing: 0rem;
+  }
+  .hero .hero-text p {
+    font-size: 2.2rem;
+    width: 57rem;
+    line-height: 3.4rem;
+    word-spacing: 0px;
+  }
+  .hero .hero-text button {
+    font-size: 1.9rem;
+    margin: 3.6rem auto 2.4rem;
+    padding: 1.35rem;
+    width: 39%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
