@@ -1,0 +1,87 @@
+.dashboard{
+  margin-top: -3.82rem;
+  background: #f0f1f6;
+  @include flexCenter(column);
+  padding: 0 2.4rem;
+  text-align: center;
+
+  h1, h2{
+    color: $very-dark-blue;
+  }
+
+  p{
+    color: $grayish-violet;
+  }
+  
+  .heading{
+    margin-bottom: 7rem;
+
+    h1{
+      font-size: 2.85rem;
+      letter-spacing: -1px;
+      margin-bottom: 1.8rem;
+    }
+
+    p{
+      line-height: 2.8rem;
+      font-size: 1.6rem;
+    }
+  }
+
+  .cards-wrapper{
+    // padding: 0 1rem;
+
+
+    .card{
+      // height: 26.7rem;
+      background: #fff;
+      padding: 1.5rem 3.5rem 4rem;
+      margin: 2rem 0 9.25rem;
+      border-radius: 0.5rem;
+      position: relative;
+      
+      &:nth-child(2){
+        padding-bottom: 3rem;
+      }
+
+      &:nth-child(3){
+        margin-bottom: 8rem;
+      }
+
+      &:nth-child(1), &:nth-child(2){
+        &::after{
+          content: '';
+          position: absolute;
+          width: 0.8rem;
+          height: 9.25rem;
+          background: $cyan;
+          margin:  0 auto;
+          top: 100%;
+          // left: 50%;
+          margin-left: -1%
+        }
+      }
+
+      
+      .icon{
+        @include flexCenter(column);
+        background: $dark-violet;
+        border-radius: 50%;
+        width: 8.8rem;
+        height: 8.8rem;
+        margin: -6rem auto 3.2rem auto;
+      }
+
+      h2{
+        font-size: 2.2rem;
+        margin-bottom: 1.5rem;
+      }
+    
+      p{
+        font-size: 1.5rem;
+        line-height: 2.6rem;
+        letter-spacing: -0.06px;      
+      }
+    }
+  }
+}

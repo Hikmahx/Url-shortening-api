@@ -644,4 +644,106 @@ header nav.open ul li {
     font-size: 2rem;
   }
 }
+
+.dashboard {
+  margin-top: -3.82rem;
+  background: #f0f1f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 2.4rem;
+  text-align: center;
+}
+
+.dashboard h1, .dashboard h2 {
+  color: #35323e;
+}
+
+.dashboard p {
+  color: #9e9aa7;
+}
+
+.dashboard .heading {
+  margin-bottom: 7rem;
+}
+
+.dashboard .heading h1 {
+  font-size: 2.85rem;
+  letter-spacing: -1px;
+  margin-bottom: 1.8rem;
+}
+
+.dashboard .heading p {
+  line-height: 2.8rem;
+  font-size: 1.6rem;
+}
+
+.dashboard .cards-wrapper .card {
+  background: #fff;
+  padding: 1.5rem 3.5rem 4rem;
+  margin: 2rem 0 9.25rem;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.dashboard .cards-wrapper .card:nth-child(2) {
+  padding-bottom: 3rem;
+}
+
+.dashboard .cards-wrapper .card:nth-child(3) {
+  margin-bottom: 8rem;
+}
+
+.dashboard .cards-wrapper .card:nth-child(1)::after, .dashboard .cards-wrapper .card:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  width: 0.8rem;
+  height: 9.25rem;
+  background: #2acfcf;
+  margin: 0 auto;
+  top: 100%;
+  margin-left: -1%;
+}
+
+.dashboard .cards-wrapper .card .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #3b3054;
+  border-radius: 50%;
+  width: 8.8rem;
+  height: 8.8rem;
+  margin: -6rem auto 3.2rem auto;
+}
+
+.dashboard .cards-wrapper .card h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard .cards-wrapper .card p {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  letter-spacing: -0.06px;
+}
 /*# sourceMappingURL=style.css.map */
