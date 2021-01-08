@@ -1,7 +1,8 @@
 /* MOBILE FIRST */
 .api-container {
-  height: 100vh;
+  height: max-content;
   margin-top: 13.7rem;
+  padding-bottom: 1.5rem;
   // background: linear-gradient(180deg, #ffffff 14%, #f0f1f6 14%);
   background: #f0f1f6;
   
@@ -45,7 +46,6 @@
         border-radius: 0.5rem;
         font-family: 'Poppins', sans-serif;
         font-size: 1.8rem;
-        // font-weight: 700;
         color: #fff;
 
       }
@@ -111,7 +111,6 @@
       height: 15rem;
       top: -7.5rem;
       padding: 2.4rem 3.2rem;
-      // padding: 2.4rem;
 
       form{
         input, button{

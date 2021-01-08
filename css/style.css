@@ -447,8 +447,11 @@ header nav.open ul li {
 
 /* MOBILE FIRST */
 .api-container {
-  height: 100vh;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   margin-top: 13.7rem;
+  padding-bottom: 1.5rem;
   background: #f0f1f6;
 }
 
