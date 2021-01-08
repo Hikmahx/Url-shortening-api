@@ -81,3 +81,14 @@
     }
   }
 }
+
+@media(min-width:750px) {
+  .api-container{
+
+    .search-box{
+      width: 77%;
+      height: 12rem;
+      padding: 2.4rem 1rem;
+    }
+  }
+}
