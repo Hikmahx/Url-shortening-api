@@ -102,3 +102,36 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  .api-container{
+    margin-top: 13.4rem;
+
+    .search-box{
+      height: 15rem;
+      top: -7.5rem;
+      padding: 2.4rem 3.2rem;
+      // padding: 2.4rem;
+
+      form{
+        input, button{
+          height: 5.7rem;
+          border-radius: 1.1rem;
+        }
+
+        input{
+          width: 78.4%;
+          padding-left: 3rem;
+
+          &::placeholder{
+            font-size: 1.8rem;
+          }
+        }
+
+        button{
+          width: 19.2%;
+        }
+      }
+    }
+  }
+}
