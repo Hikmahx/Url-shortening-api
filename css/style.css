@@ -569,4 +569,12 @@ header nav.open ul li {
     padding: 2.4rem 1rem;
   }
 }
+
+@media (min-width: 1023px) {
+  .api-container .search-box {
+    background: #3b3054 url(../images/bg-shorten-desktop.svg) no-repeat;
+    background-size: 100%;
+    padding: 2.4rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
