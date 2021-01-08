@@ -5,7 +5,8 @@
         "style.scss",
         "_header.scss",
         "_banner.scss",
-        "_form.scss"
+        "_form.scss",
+        "_dashboard.scss"
     ],
     "names": [],
     "file": "style.css"
