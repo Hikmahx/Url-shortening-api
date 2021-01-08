@@ -675,6 +675,7 @@ header nav.open ul li {
 
 .dashboard .heading {
   margin-bottom: 7rem;
+  max-width: 66rem;
 }
 
 .dashboard .heading h1 {
@@ -686,6 +687,10 @@ header nav.open ul li {
 .dashboard .heading p {
   line-height: 2.8rem;
   font-size: 1.6rem;
+}
+
+.dashboard .cards-wrapper {
+  max-width: 66rem;
 }
 
 .dashboard .cards-wrapper .card {
