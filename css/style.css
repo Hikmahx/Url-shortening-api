@@ -594,6 +594,7 @@ header nav.open ul li {
   .api-container .search-box form input {
     width: 78.4%;
     padding-left: 3rem;
+    font-size: 1.8rem;
   }
   .api-container .search-box form input::-webkit-input-placeholder {
     font-size: 1.8rem;
@@ -609,6 +610,35 @@ header nav.open ul li {
   }
   .api-container .search-box form button {
     width: 19.2%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .api-container {
+    margin-top: 9.5rem;
+  }
+  .api-container .search-box {
+    padding: 2.4rem 4rem;
+    height: 16.8rem;
+    top: -8.5rem;
+  }
+  .api-container .search-box form input, .api-container .search-box form button {
+    height: 6.3rem;
+  }
+  .api-container .search-box form input::-webkit-input-placeholder {
+    font-size: 2rem;
+  }
+  .api-container .search-box form input:-ms-input-placeholder {
+    font-size: 2rem;
+  }
+  .api-container .search-box form input::-ms-input-placeholder {
+    font-size: 2rem;
+  }
+  .api-container .search-box form input::placeholder {
+    font-size: 2rem;
+  }
+  .api-container .search-box form button {
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
