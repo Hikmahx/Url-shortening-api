@@ -645,6 +645,7 @@ header nav.open ul li {
   }
 }
 
+/* MOBILE FIRST */
 .dashboard {
   margin-top: -3.82rem;
   background: #f0f1f6;
@@ -752,6 +753,7 @@ header nav.open ul li {
   letter-spacing: -0.06px;
 }
 
+/* TABLET AND DESKTOP VIEW*/
 @media (min-width: 1023px) {
   .dashboard .cards-wrapper {
     max-width: 100%;
@@ -780,7 +782,7 @@ header nav.open ul li {
     grid-column: 2;
   }
   .dashboard .cards-wrapper .card:nth-child(3) {
-    margin-top: 10rem;
+    margin-top: 8rem;
     -ms-grid-column: 3;
     grid-column: 3;
   }
@@ -790,6 +792,57 @@ header nav.open ul li {
     top: 50%;
     left: 100%;
     margin-left: 0%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .dashboard {
+    padding: 0px 13rem;
+  }
+  .dashboard .heading {
+    margin-bottom: 4rem;
+  }
+  .dashboard .heading h1 {
+    font-size: 3.5rem;
+    margin-top: 2.35rem;
+    margin-bottom: 0.9rem;
+  }
+  .dashboard .cards-wrapper {
+    gap: 2.8rem;
+  }
+  .dashboard .cards-wrapper .card {
+    width: 31rem;
+    height: 24rem;
+    padding: 1.5rem 2.8rem 4rem;
+  }
+  .dashboard .cards-wrapper .card .icon {
+    margin: -5rem 0rem 2.2rem;
+    width: 8rem;
+    height: 8rem;
+  }
+  .dashboard .cards-wrapper .card:nth-child(1) {
+    margin-top: 1.7rem;
+  }
+  .dashboard .cards-wrapper .card:nth-child(1)::after {
+    top: 56%;
+  }
+  .dashboard .cards-wrapper .card:nth-child(2) {
+    margin-top: 5.5rem;
+  }
+  .dashboard .cards-wrapper .card:nth-child(2)::after {
+    top: 41%;
+  }
+  .dashboard .cards-wrapper .card:nth-child(3) {
+    margin-top: 9.5rem;
+    margin-bottom: 7rem;
+  }
+  .dashboard .cards-wrapper .card h2 {
+    font-size: 2rem;
+    margin-bottom: 1.34rem;
+  }
+  .dashboard .cards-wrapper .card p {
+    font-size: 1.35rem;
+    line-height: 2.3rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,4 @@
+/* MOBILE FIRST */
 .dashboard{
   margin-top: -3.82rem;
   background: #f0f1f6;
@@ -88,6 +89,7 @@
   }
 }
 
+/* TABLET AND DESKTOP VIEW*/ 
 @media (min-width: 1023px) {
   .dashboard{
     .cards-wrapper{
@@ -117,7 +119,7 @@
         }
 
         &:nth-child(3){
-          margin-top: 10rem;
+          margin-top: 8rem;
           grid-column: 3;
         }
 
@@ -127,13 +129,75 @@
             height: 0.8rem;
             top: 50%;
             left: 100%;
-            margin-left: 0%
+            margin-left: 0%;
           }
         }
       }
+    }
+  }
+}
 
+@media (min-width: 1200px) {
+  .dashboard{
+    padding: 0px 13rem;
+    // height: 100vh;
+
+    .heading{
+      margin-bottom: 4rem;
+      h1{
+        font-size: 3.5rem;
+        margin-top: 2.35rem;
+        margin-bottom: 0.9rem;
+      }
     }
 
-    
+    .cards-wrapper{
+      // max-width: 520rem;
+      gap: 2.8rem;
+
+      .card{
+        width: 31rem;
+        height: 24rem;
+        padding: 1.5rem 2.8rem 4rem;
+
+        .icon{
+          margin: -5rem 0rem 2.2rem;
+          width: 8rem;
+          height: 8rem;
+        }
+
+        &:nth-child(1){
+          margin-top: 1.7rem;
+
+          &::after{
+            top: 56%;
+          }
+        }
+
+        &:nth-child(2){
+          margin-top: 5.5rem;
+
+          &::after{
+            top: 41%;
+          }
+        }
+
+        &:nth-child(3){
+          margin-top: 9.5rem;
+          margin-bottom: 7rem;
+        }
+
+        h2{
+          font-size: 2rem;
+          margin-bottom: 1.34rem;
+        }
+
+        p{
+          font-size: 1.35rem;
+          line-height: 2.3rem;
+          // width: 27rem;
+        }
+      }
+    }
   }
 }
