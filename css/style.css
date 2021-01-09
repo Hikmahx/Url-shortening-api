@@ -675,7 +675,7 @@ header nav.open ul li {
 
 .dashboard .heading {
   margin-bottom: 7rem;
-  max-width: 66rem;
+  max-width: 48rem;
 }
 
 .dashboard .heading h1 {
@@ -750,5 +750,46 @@ header nav.open ul li {
   font-size: 1.5rem;
   line-height: 2.6rem;
   letter-spacing: -0.06px;
+}
+
+@media (min-width: 1023px) {
+  .dashboard .cards-wrapper {
+    max-width: 100%;
+    padding: 3rem 1rem;
+    margin: 0px auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+  .dashboard .cards-wrapper .card {
+    height: 28rem;
+    text-align: left;
+  }
+  .dashboard .cards-wrapper .card .icon {
+    margin: -6rem 1rem 3.2rem;
+  }
+  .dashboard .cards-wrapper .card:nth-child(1) {
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .dashboard .cards-wrapper .card:nth-child(2) {
+    margin-top: 5rem;
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
+  .dashboard .cards-wrapper .card:nth-child(3) {
+    margin-top: 10rem;
+    -ms-grid-column: 3;
+    grid-column: 3;
+  }
+  .dashboard .cards-wrapper .card:nth-child(1)::after, .dashboard .cards-wrapper .card:nth-child(2)::after {
+    width: 6.25rem;
+    height: 0.8rem;
+    top: 50%;
+    left: 100%;
+    margin-left: 0%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
