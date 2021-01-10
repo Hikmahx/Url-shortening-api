@@ -845,4 +845,115 @@ header nav.open ul li {
     line-height: 2.3rem;
   }
 }
+
+footer {
+  background: #232127;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer .upper {
+  background: #3b3054 url(../images/bg-boost-mobile.svg);
+  height: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .upper h1 {
+  font-size: 2.6rem;
+  margin-top: 2.6rem;
+}
+
+footer .upper button {
+  width: 52%;
+  padding: 1.48rem;
+  border-radius: 3rem;
+  background: #2acfcf;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 1.5rem auto;
+  border: none;
+}
+
+footer .lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5.4rem 5rem 0;
+}
+
+footer .lower .logo {
+  margin-bottom: 4.4rem;
+}
+
+footer .lower ul {
+  text-align: center;
+  margin-bottom: 2.85rem;
+}
+
+footer .lower ul li {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+footer .lower ul li:nth-child(1) {
+  font-weight: 700;
+  margin-bottom: 2.2rem;
+  letter-spacing: 0.4px;
+}
+
+footer .lower ul li a {
+  font-weight: 500;
+  color: #bfbfbf;
+  letter-spacing: -0.4px;
+}
+
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer .social a {
+  margin: 0  1.2rem;
+  font-size: 2.6rem;
+}
 /*# sourceMappingURL=style.css.map */
