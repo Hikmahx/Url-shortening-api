@@ -82,3 +82,20 @@ footer{
     }
   }
 }
+
+@media (min-width:700px) {
+  footer{
+    .lower{
+      flex-direction: row;
+      .logo{
+        width: 25%;
+      }
+
+      ul{
+        // text-align: left;
+        align-items: flex-start;
+        width: 26%;
+      }
+    }
+  }
+}

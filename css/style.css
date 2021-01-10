@@ -991,4 +991,22 @@ footer .social a {
   margin: 0  1.2rem;
   font-size: 2.6rem;
 }
+
+@media (min-width: 700px) {
+  footer .lower {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer .lower .logo {
+    width: 25%;
+  }
+  footer .lower ul {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 26%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
