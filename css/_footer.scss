@@ -92,9 +92,37 @@ footer{
       }
 
       ul{
-        // text-align: left;
         align-items: flex-start;
         width: 26%;
+      }
+    }
+  }
+}
+
+@media (min-width:1023px){
+  footer{
+    .upper{
+      height: 25rem;
+      background: #3b3054 url(../images/bg-boost-desktop.svg) no-repeat;
+
+      h1{
+        font-size: 3rem;
+      }
+
+      button{
+        width: 18rem;
+      }
+    }
+
+    .lower{
+      align-items: flex-start;
+
+      .logo{
+        align-items: baseline;
+      }
+      ul{
+        align-items: flex-start;
+        width: 22%;
       }
     }
   }

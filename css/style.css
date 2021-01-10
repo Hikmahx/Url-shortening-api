@@ -1009,4 +1009,33 @@ footer .social a {
     width: 26%;
   }
 }
+
+@media (min-width: 1023px) {
+  footer .upper {
+    height: 25rem;
+    background: #3b3054 url(../images/bg-boost-desktop.svg) no-repeat;
+  }
+  footer .upper h1 {
+    font-size: 3rem;
+  }
+  footer .upper button {
+    width: 18rem;
+  }
+  footer .lower {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  footer .lower .logo {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  footer .lower ul {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 22%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
