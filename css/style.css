@@ -1068,18 +1068,8 @@ footer .social a {
   footer .lower .logo {
     width: 30%;
   }
-  footer .lower .logo img {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
-  }
   footer .lower ul {
     width: 17%;
-  }
-  footer .lower ul li:nth-child(1) {
-    font-size: 1.3rem;
-  }
-  footer .lower ul li a {
-    font-size: 1.3rem;
   }
   footer .social {
     width: 10%;
@@ -1089,6 +1079,36 @@ footer .social a {
   }
   footer .social a {
     font-size: 2.4rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  footer {
+    padding-bottom: 5.2rem;
+  }
+  footer .upper h1 {
+    font-size: 3.8rem;
+    margin: 1rem 0;
+  }
+  footer .upper button {
+    width: 20rem;
+  }
+  footer .lower {
+    padding-top: 7.2rem;
+    padding-left: 4.7rem;
+    height: 28.6vh;
+  }
+  footer .lower .logo {
+    position: relative;
+    top: auto;
+    left: -2.7rem;
+  }
+  footer .lower ul {
+    width: 15.5%;
+  }
+  footer .social {
+    top: -4rem;
+    left: -17.8rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
