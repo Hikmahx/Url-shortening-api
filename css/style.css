@@ -527,6 +527,86 @@ header nav.open ul li {
   color: #fff;
 }
 
+.api-container .links {
+  margin: auto;
+  width: 87%;
+  position: relative;
+  top: -8.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.api-container .links li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #fff;
+  height: 15.5rem;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+  padding: 1.3rem 1.6rem 1.6rem;
+}
+
+.api-container .links li:last-child {
+  margin-bottom: 2.4rem;
+}
+
+.api-container .links li p {
+  padding-bottom: 1rem;
+  width: 100%;
+  position: relative;
+}
+
+.api-container .links li p::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 0.1rem;
+  background: #bfbfbf;
+  left: -1.6rem;
+  top: 3.5rem;
+  padding: 0 1.6rem;
+}
+
+.api-container .links li a {
+  width: 100%;
+  padding-top: 0.2rem;
+  color: #2acfcf;
+}
+
+.api-container .links li button {
+  width: 100%;
+  height: 4rem;
+  background: #2bd1d1;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
 @media (min-width: 590px) {
   .api-container .search-box {
     height: 10rem;
