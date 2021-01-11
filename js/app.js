@@ -11,6 +11,9 @@ menu.addEventListener('click', ()=>{
 // init Shrtcode
 const shrtcode = new ShrtCode;
 
+// init links
+const ui = new UI;
+
 // UI variables for API
 const form = document.getElementById('search-form');
 const input = document.getElementById('input-link');
@@ -24,12 +27,13 @@ form.addEventListener('submit', (e)=>{
     // Make http call
     shrtcode.postUrl(url)
     .then(data=>{
-      console.log(data.original_link);
-      console.log(data.full_short_link);
+      // console.log(data.original_link);
+      // console.log(data.full_short_link);
       // console.log(data)
+
+      ui.showLinks(data);
     })
     
-    console.log()
   } else{
     console.log('nothing in the input');
   }
