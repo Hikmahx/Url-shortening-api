@@ -566,7 +566,7 @@ header nav.open ul li {
   padding: 1.3rem 1.6rem 1.6rem;
 }
 
-.api-container .links li:last-child {
+.api-container .links li:first-child {
   margin-bottom: 2.4rem;
 }
 
@@ -643,6 +643,9 @@ header nav.open ul li {
   .api-container .search-box form button {
     width: 20%;
   }
+  .api-container .links {
+    top: -5.6rem;
+  }
 }
 
 @media (min-width: 750px) {
@@ -650,6 +653,9 @@ header nav.open ul li {
     width: 77%;
     height: 12rem;
     padding: 2.4rem 1rem;
+  }
+  .api-container .links {
+    width: 77%;
   }
 }
 

@@ -58,7 +58,7 @@
     position: relative;
     top: -8.6rem;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column-reverse; //the most recent appears on top
 
     li{
       @include flexCenter(column);
@@ -70,7 +70,7 @@
       margin-bottom: 2.4rem;
       padding: 1.3rem 1.6rem 1.6rem;
 
-      &:last-child{
+      &:first-child{
         margin-bottom: 2.4rem;
       }
 
@@ -139,6 +139,10 @@
         }
       }
     }
+
+    .links{
+      top: -5.6rem;
+    }
   }
 }
 
@@ -149,6 +153,10 @@
       width: 77%;
       height: 12rem;
       padding: 2.4rem 1rem;
+    }
+
+    .links{
+      width: 77%;
     }
   }
 }
