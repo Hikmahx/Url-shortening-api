@@ -665,6 +665,35 @@ header nav.open ul li {
     background-size: 100%;
     padding: 2.4rem;
   }
+  .api-container .links {
+    top: -6rem;
+  }
+  .api-container .links li {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+    height: 7.2rem;
+    font-size: 1.6rem;
+    padding: 1.3rem 2.1rem 1.6rem 3.1rem;
+    margin-bottom: 1.7rem;
+    max-width: 111rem;
+  }
+  .api-container .links li p {
+    width: 48%;
+    padding-bottom: 0rem;
+  }
+  .api-container .links li p::after {
+    width: 0%;
+    padding: 0rem;
+  }
+  .api-container .links li a {
+    width: 16%;
+  }
+  .api-container .links li button {
+    width: 9.8%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -700,6 +729,18 @@ header nav.open ul li {
   .api-container .search-box form button {
     width: 19.2%;
   }
+  .api-container .links {
+    top: -9rem;
+  }
+  .api-container .links li {
+    font-size: 2rem;
+  }
+  .api-container .links li p {
+    width: 50%;
+  }
+  .api-container .links li a {
+    font-size: 1.8rem;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -728,6 +769,9 @@ header nav.open ul li {
   }
   .api-container .search-box form button {
     font-size: 2rem;
+  }
+  .api-container .links li p {
+    width: 60%;
   }
 }
 
