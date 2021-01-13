@@ -1196,6 +1196,12 @@ footer .lower ul li a {
   letter-spacing: -0.4px;
 }
 
+footer .lower ul li a:hover {
+  color: #2acfcf;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
 footer .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1215,6 +1221,12 @@ footer .social {
 footer .social a {
   margin: 0  1.2rem;
   font-size: 2.6rem;
+}
+
+footer .social a:hover {
+  color: #2acfcf;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 @media (min-width: 700px) {
