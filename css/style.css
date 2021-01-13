@@ -490,6 +490,7 @@ header nav.open ul li {
   border: none;
   padding: 0.5rem 0 0 1.5rem;
   font-family: 'Poppins', sans-serif;
+  position: relative;
 }
 
 .api-container .search-box form input::-webkit-input-placeholder {
@@ -516,6 +517,12 @@ header nav.open ul li {
   color: #9e9aa7;
 }
 
+.api-container .search-box form input.red {
+  color: #f46262;
+  font-size: 1.6rem;
+  border: 0.2rem solid #f46262;
+}
+
 .api-container .search-box form button {
   width: 100%;
   height: 4.8rem;
@@ -525,6 +532,18 @@ header nav.open ul li {
   font-family: 'Poppins', sans-serif;
   font-size: 1.8rem;
   color: #fff;
+}
+
+.api-container .search-box .error {
+  position: absolute;
+  top: 42%;
+  left: 8%;
+}
+
+.api-container .search-box .error .error-p {
+  font-size: 1.2rem;
+  color: #f46262;
+  font-style: italic;
 }
 
 .api-container .links {

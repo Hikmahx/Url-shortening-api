@@ -30,11 +30,18 @@
         border: none;
         padding: 0.5rem 0 0 1.5rem;
         font-family: 'Poppins', sans-serif;
+        position: relative;
 
         &::placeholder{
           font-family: 'Poppins', sans-serif;
           font-size: 1.6rem;
           color: $grayish-violet;
+        }
+
+        &.red{
+          color: $red;
+          font-size: 1.6rem;
+          border: 0.2rem solid rgb(244, 98, 98);
         }
       }
 
@@ -48,6 +55,18 @@
         font-size: 1.8rem;
         color: #fff;
 
+      }
+    }
+
+    .error{
+      position: absolute;
+      top: 42%;
+      left: 8%;
+
+      .error-p{
+        font-size: 1.2rem;
+        color: $red;
+        font-style: italic;
       }
     }
   }
