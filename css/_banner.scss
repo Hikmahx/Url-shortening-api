@@ -50,6 +50,12 @@
       letter-spacing: 1px;
       margin: 3rem auto;
       border: none;
+
+      &:hover{
+        cursor: pointer;
+        background:#9be2e4;
+      }
+
     }
   }
 }

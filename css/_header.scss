@@ -79,6 +79,12 @@ header{
           background: $cyan;
           max-width: 45rem;
           margin: auto;
+
+          &:hover{
+            cursor: pointer;
+            background:#9be2e4;
+            transition: 0.2s ease-in-out;
+          }
         }
       }
     }

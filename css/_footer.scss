@@ -32,6 +32,11 @@ footer{
       letter-spacing: 1px;
       margin: 1.5rem auto;
       border: none;
+
+      &:hover{
+        cursor: pointer;
+        background:#9be2e4;
+      }
     }
   }
 

@@ -117,6 +117,13 @@ header nav .nav-right li:last-child {
   margin: auto;
 }
 
+header nav .nav-right li:last-child:hover {
+  cursor: pointer;
+  background: #9be2e4;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
 header nav.open {
   top: 17.2%;
 }
@@ -347,6 +354,11 @@ header nav.open ul li {
   border: none;
 }
 
+.hero .hero-text button:hover {
+  cursor: pointer;
+  background: #9be2e4;
+}
+
 /* TABLET AND DESKTOP */
 @media (min-width: 750px) {
   .hero .hero-text h1 {
@@ -534,6 +546,11 @@ header nav.open ul li {
   color: #fff;
 }
 
+.api-container .search-box form button:hover, .api-container .search-box form button:focus {
+  cursor: pointer;
+  background: #9be2e4;
+}
+
 .api-container .search-box .error {
   position: absolute;
   top: 42%;
@@ -624,6 +641,11 @@ header nav.open ul li {
   font-weight: 700;
   letter-spacing: 0.5px;
   color: #fff;
+}
+
+.api-container .links li button:hover {
+  cursor: pointer;
+  background: #9be2e4;
 }
 
 @media (min-width: 590px) {
@@ -1092,6 +1114,11 @@ footer .upper button {
   letter-spacing: 1px;
   margin: 1.5rem auto;
   border: none;
+}
+
+footer .upper button:hover {
+  cursor: pointer;
+  background: #9be2e4;
 }
 
 footer .lower {
