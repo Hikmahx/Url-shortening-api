@@ -18,7 +18,7 @@ class UI{
     this.addError();
     setTimeout(()=>{
       this.clearErr();
-    }, 200000);
+    }, 2000);
 
   }
 
