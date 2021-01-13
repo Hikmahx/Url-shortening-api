@@ -43,8 +43,8 @@ footer{
   .lower{
     @include flexCenter(column);
     flex-wrap: wrap;
-    // margin: 2rem;
     padding: 5.4rem 5rem 0;
+
     .logo{
       margin-bottom: 4.4rem;
       width: 100%;
@@ -58,6 +58,7 @@ footer{
       width: 100%;
       height: auto;
       @include flexCenter(column);
+
       li{
         font-size: 1.5rem;
         margin-bottom: 1rem;
@@ -66,7 +67,6 @@ footer{
           font-weight: 700;
           margin-bottom: 2.2rem;
           letter-spacing: 0.4px;
-
         }
 
         a{
@@ -100,8 +100,10 @@ footer{
 
 @media (min-width:700px) {
   footer{
+
     .lower{
       flex-direction: row;
+
       .logo{
         width: 25%;
       }
@@ -136,6 +138,7 @@ footer{
       .logo{
         align-items: baseline;
       }
+
       ul{
         align-items: flex-start;
         width: 22%;
@@ -155,30 +158,14 @@ footer{
     }
 
     .lower{
-      // width: 80%;
       width: 90%;
-      // padding-left: 10rem;
 
       .logo{
         width: 30%;
-
-        // img{
-        //   transform: scale(0.8);
-        // }
       }
 
       ul{
         width: 17%;
-        li{
-
-          &:nth-child(1){
-            // font-size: 1.3rem;
-          }
-
-          a{
-            // font-size: 1.3rem;
-          }
-        }
       }
     }
 
@@ -200,6 +187,7 @@ footer{
     padding-bottom: 5.2rem;
 
     .upper{
+      
       h1{
         font-size: 3.8rem;
         margin: 1rem 0;
