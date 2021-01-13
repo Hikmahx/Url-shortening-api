@@ -104,6 +104,12 @@ header nav ul li a {
   letter-spacing: 0.2px;
 }
 
+header nav ul li a:hover {
+  color: #35323e;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
 header nav .nav-right li {
   margin-bottom: 2.5rem;
 }
