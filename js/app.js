@@ -35,7 +35,7 @@ form.addEventListener('submit', (e)=>{
     })
     
   } else{
-    console.log('nothing in the input');
+    ui.showError();
   }
   e.preventDefault();
 })
