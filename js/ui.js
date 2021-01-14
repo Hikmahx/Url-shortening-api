@@ -22,13 +22,32 @@ class UI{
 
   }
 
+  // invalid url
+  invalid(){
+    // document.querySelector('.error').innerHTML = '<p>Please enter a valid link</p>'
+    const errDiv = document.querySelector('.error');
+
+    const p = document.createElement('p');
+    p.className = 'error-p';
+    p.appendChild(document.createTextNode('Please enter a valid link'));
+    errDiv.appendChild(p);
+    input.parentElement.style.height = '18.2rem';
+    input.classList.add('red');
+
+    input.onkeydown = ()=> {
+      document.querySelector('.error-p').remove();
+      input.classList.remove('red');
+      input.parentElement.style.height = '16rem';
+    }
+  }
+
     // add error
   addError(){
     const errDiv = document.querySelector('.error');
 
     const p = document.createElement('p');
     p.className = 'error-p';
-    p.appendChild(document.createTextNode('Please add link'));
+    p.appendChild(document.createTextNode('Please add a link'));
     errDiv.appendChild(p);
     input.parentElement.style.height = '18.2rem';
     input.classList.add('red');
