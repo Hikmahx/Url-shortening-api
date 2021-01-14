@@ -30,10 +30,13 @@ form.addEventListener('submit', (e)=>{
       // console.log(data.original_link);
       // console.log(data.full_short_link);
       // console.log(data)
-
-      ui.showLinks(data);
-    })
-    
+      if (!data.ok) {
+        // throw new Error(`url not found`);
+        ui.invalid();
+      }else{
+        ui.showLinks(data.result);
+      }
+    })    
   } else{
     ui.showError();
   }
