@@ -168,6 +168,11 @@
           width: 20%;
         }
       }
+      
+      .error{
+        top: 73%;
+        left: 6%;
+      }
     }
 
     .links{
@@ -252,6 +257,10 @@
           width: 78.4%;
           padding-left: 3rem;
           font-size: 1.8rem;
+
+          &.red{
+            font-size: 1.8rem;
+          }
 
           &::placeholder{
             font-size: 1.8rem;
