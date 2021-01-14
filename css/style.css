@@ -569,6 +569,41 @@ header nav.open ul li {
   font-style: italic;
 }
 
+.api-container .loader {
+  width: 8rem;
+  height: 8rem;
+  margin: auto;
+  margin-bottom: 6rem;
+  border: 0.3rem solid #3b3054;
+  border-top: 0.3rem solid #2acfcf;
+  border-radius: 50%;
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+  display: none;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
 .api-container .links {
   margin: auto;
   width: 87%;

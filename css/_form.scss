@@ -75,6 +75,22 @@
     }
   }
 
+  .loader{
+    width: 8rem;
+    height:8rem;
+    margin: auto;
+    margin-bottom: 6rem;
+    border: 0.3rem solid $dark-violet;
+    border-top:0.3rem solid $cyan;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+    display: none;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
   .links{
     margin: auto;
     width: 87%;
