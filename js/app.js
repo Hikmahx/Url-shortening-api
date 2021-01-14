@@ -27,11 +27,7 @@ form.addEventListener('submit', (e)=>{
     // Make http call
     shrtcode.postUrl(url)
     .then(data=>{
-      // console.log(data.original_link);
-      // console.log(data.full_short_link);
-      // console.log(data)
       if (!data.ok) {
-        // throw new Error(`url not found`);
         ui.invalid();
       }else{
         ui.showLinks(data.result);
