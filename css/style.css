@@ -572,18 +572,17 @@ header nav.open ul li {
 .api-container .loader {
   width: 8rem;
   height: 8rem;
-  margin: auto;
-  margin-bottom: 6rem;
+  margin: -10rem auto 10rem;
   border: 0.3rem solid #3b3054;
   border-top: 0.3rem solid #2acfcf;
   border-radius: 50%;
   -webkit-animation: spin 2s linear infinite;
           animation: spin 2s linear infinite;
-  visibility: hidden;
+  display: none;
 }
 
 .api-container .loader.show {
-  visibility: visible;
+  display: block;
 }
 
 @-webkit-keyframes spin {
@@ -832,6 +831,7 @@ header nav.open ul li {
     width: 50%;
   }
   .api-container .links li a {
+    width: 20%;
     font-size: 1.8rem;
   }
 }

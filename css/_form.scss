@@ -78,17 +78,15 @@
   .loader{
     width: 8rem;
     height:8rem;
-    margin: auto;
-    margin-bottom: 6rem;
+    margin: -10rem auto 10rem;
     border: 0.3rem solid $dark-violet;
     border-top:0.3rem solid $cyan;
     border-radius: 50%;
     animation: spin 2s linear infinite;
-    // display: none;
-    visibility: hidden;
+    display: none;
 
     &.show{
-      visibility: visible;
+      display: block;
     }
   }
   @keyframes spin {
@@ -305,6 +303,7 @@
         }
 
         a{
+          width: 20%;
           font-size: 1.8rem;
         }
       }
