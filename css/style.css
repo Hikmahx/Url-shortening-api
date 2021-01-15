@@ -579,7 +579,11 @@ header nav.open ul li {
   border-radius: 50%;
   -webkit-animation: spin 2s linear infinite;
           animation: spin 2s linear infinite;
-  display: none;
+  visibility: hidden;
+}
+
+.api-container .loader.show {
+  visibility: visible;
 }
 
 @-webkit-keyframes spin {

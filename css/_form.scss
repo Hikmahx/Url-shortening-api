@@ -84,7 +84,12 @@
     border-top:0.3rem solid $cyan;
     border-radius: 50%;
     animation: spin 2s linear infinite;
-    display: none;
+    // display: none;
+    visibility: hidden;
+
+    &.show{
+      visibility: visible;
+    }
   }
   @keyframes spin {
     0% { transform: rotate(0deg); }
