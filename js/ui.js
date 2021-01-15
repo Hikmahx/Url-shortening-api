@@ -39,6 +39,12 @@ class UI{
       input.classList.remove('red');
       input.parentElement.style.height = '16rem';
     }
+
+    form.onsubmit = ()=> {
+      document.querySelector('.error-p').remove();
+      input.classList.remove('red');
+      input.parentElement.style.height = '16rem';
+    }
   }
 
     // add error
