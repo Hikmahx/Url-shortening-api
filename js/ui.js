@@ -17,21 +17,18 @@ class UI{
   truncate(){
     let strs = document.querySelectorAll('.links li p');
     strs.forEach(str => {
-      // max amount of <p> characters
+      // max amount of <p> characters based on the width
       let maxNumber = Math.round(str.offsetWidth/10);
-      str.innerText = `${str.innerText.slice(0, maxNumber) +'...'}`
+
+      // show shorten <p> in ui
+      str.innerText = `${str.innerText.slice(0, maxNumber) +'...'}`;
+
       let info = `
       p width: ${str.clientWidth} 
       window width: ${window.innerWidth}
       number of characters: ${maxNumber}`;
       console.log(info);  
     });
-    // if(window.innerWidth < 330 && str.innerText.length > 32){
-    //   str.innerHTML = `<p>${str.innerText.slice(0, 25) +'...'}</p>`
-    // }
-    // if(window.innerWidth <600 && str.innerText.length > 45){
-    //   str.innerHTML = `<p>${str.innerText.slice(0, 45) +'...'}</p>`
-    // }
   }
 
   // display error in form
