@@ -29,7 +29,9 @@ form.addEventListener('submit', (e)=>{
     .then(data=>{
       if (!data.ok) {
         ui.invalid();
+        loader.classList.remove('show');
       }else{
+        loader.classList.remove('show');
         ui.showLinks(data.result);
       }
     })    
