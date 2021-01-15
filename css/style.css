@@ -732,6 +732,9 @@ header nav.open ul li {
     top: 73%;
     left: 6%;
   }
+  .api-container .loader {
+    margin-top: -5rem;
+  }
   .api-container .links {
     top: -5.6rem;
   }
@@ -820,6 +823,9 @@ header nav.open ul li {
   }
   .api-container .search-box form button {
     width: 19.2%;
+  }
+  .api-container .loader {
+    margin-top: -10rem;
   }
   .api-container .links {
     top: -9rem;
