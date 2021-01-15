@@ -101,6 +101,7 @@
     top: -8.6rem;
     display: flex;
     flex-direction: column-reverse; //the most recent appears on top
+    align-items: center;
 
     li{
       @include flexCenter(column);
