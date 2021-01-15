@@ -34,9 +34,14 @@ form.addEventListener('submit', (e)=>{
         loader.classList.remove('show');
         ui.showLinks(data.result);
       }
-    })    
+    }) 
+    .catch(error=>{
+      console.log(error);
+      ui.invalid(error);
+      loader.classList.remove('show');
+    })   
   } else{
-    ui.showError();
+    ui.showError('Please enter a valid link');
   }
   e.preventDefault();
 })

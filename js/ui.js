@@ -23,13 +23,13 @@ class UI{
   }
 
   // invalid url
-  invalid(){
+  invalid(text){
     // document.querySelector('.error').innerHTML = '<p>Please enter a valid link</p>'
     const errDiv = document.querySelector('.error');
 
     const p = document.createElement('p');
     p.className = 'error-p';
-    p.appendChild(document.createTextNode('Please enter a valid link'));
+    p.appendChild(document.createTextNode(`${text}`));
     errDiv.appendChild(p);
     input.parentElement.style.height = '18.2rem';
     input.classList.add('red');
