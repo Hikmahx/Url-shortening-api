@@ -19,14 +19,19 @@ class UI{
     strs.forEach(str => {
       // max amount of <p> characters based on the width
       let maxNumber = Math.round(str.offsetWidth/10);
-
-      // show shorten <p> in ui
-      str.innerText = `${str.innerText.slice(0, maxNumber) +'...'}`;
+      
+      if(str.innerText.length < maxNumber){
+        // show shorten <p> in ui
+        str.innerText = `${str.innerText}`;
+      }else{
+        str.innerText = `${str.innerText.slice(0, maxNumber)}...`;
+      }
 
       let info = `
       p width: ${str.clientWidth} 
+      p character: ${str.innerText.length}
       window width: ${window.innerWidth}
-      number of characters: ${maxNumber}`;
+      max number of characters: ${maxNumber}`;
       console.log(info);  
     });
   }
