@@ -19,7 +19,7 @@ class UI{
     strs.forEach(str => {
       // max amount of <p> characters based on the width
       let maxNumber = Math.round(str.offsetWidth/10);
-      
+
       if(str.innerText.length < maxNumber){
         // show shorten <p> in ui
         str.innerText = `${str.innerText}`;
@@ -91,5 +91,27 @@ class UI{
     input.setAttribute('placeholder', 'Shorten a link here...');
     input.parentElement.style.height = '16rem';
     input.value = '';
+  }
+
+// copy shorten link for li in clipboard
+  copyLink(){
+    let copyBtns = document.querySelectorAll('ul li button');
+
+    copyBtns.forEach(copyBtn => {
+      copyBtn.addEventListener('click', (e)=>{
+        let copyText = copyBtn.previousElementSibling.innerText;
+        navigator.clipboard.writeText(copyText);
+        copyBtn.style.background = ' rgb(59, 48, 84)';
+        copyBtn.innerText = 'Copied!';
+
+        // remove copied if other buttons are clicked
+        e.target.onblur = ()=>{
+          if(e.target.classList.contains('copy') && copyBtn.innerText == 'Copied!'){
+            copyBtn.style.background = '  rgb(42, 207, 207)';
+            copyBtn.innerText = 'Copy';  
+          }
+        }
+      })  
+    });
   }
 }
