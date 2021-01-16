@@ -779,13 +779,14 @@ header nav.open ul li {
   .api-container .links li p {
     width: 48%;
     padding-bottom: 0rem;
+    white-space: nowrap;
   }
   .api-container .links li p::after {
     width: 0%;
     padding: 0rem;
   }
   .api-container .links li a {
-    width: 16%;
+    width: 18%;
   }
   .api-container .links li button {
     width: 9.8%;
@@ -838,7 +839,7 @@ header nav.open ul li {
     font-size: 2rem;
   }
   .api-container .links li p {
-    width: 50%;
+    margin-right: 2%;
   }
   .api-container .links li a {
     width: 20%;
@@ -874,7 +875,8 @@ header nav.open ul li {
     font-size: 2rem;
   }
   .api-container .links li p {
-    width: 60%;
+    width: 50%;
+    margin-right: 10%;
   }
 }
 

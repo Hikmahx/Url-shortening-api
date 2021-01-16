@@ -244,6 +244,7 @@
         p{
           width: 48%;
           padding-bottom: 0rem;
+          white-space: nowrap;
 
           &::after{
             width: 0%;
@@ -252,7 +253,7 @@
         }
         
         a{
-          width: 16%;
+          width: 18%;
         }
 
         button{
@@ -309,7 +310,8 @@
         font-size: 2rem;
 
         p{
-          width: 50%;
+          // width: 50%;
+          margin-right: 2%;
         }
 
         a{
@@ -350,7 +352,8 @@
     .links{
       li{
         p{
-          width: 60%;
+          width: 50%;
+          margin-right: 10%;
         }
       }
     }
