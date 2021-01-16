@@ -33,6 +33,7 @@ form.addEventListener('submit', (e)=>{
       }else{
         loader.classList.remove('show');
         ui.showLinks(data.result);
+        ui.copyLink();
       }
     }) 
     .catch(error=>{
@@ -45,4 +46,9 @@ form.addEventListener('submit', (e)=>{
   }
   e.preventDefault();
 })
+
+// let copyBtn = document.querySelector('ul li .copy');
+// copyBtn.addEventListener('click', ()=>{
+//   console.log('work');
+// })
 
