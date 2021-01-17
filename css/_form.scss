@@ -79,8 +79,8 @@
     width: 8rem;
     height:8rem;
     margin: -10rem auto 10rem;
-    border: 0.3rem solid $dark-violet;
-    border-top:0.3rem solid $cyan;
+    border: 0.3rem solid transparent;
+    border-top:0.3rem solid $dark-violet;
     border-radius: 50%;
     animation: spin 2s linear infinite;
     display: none;
