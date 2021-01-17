@@ -46,9 +46,3 @@ form.addEventListener('submit', (e)=>{
   }
   e.preventDefault();
 })
-
-// let copyBtn = document.querySelector('ul li .copy');
-// copyBtn.addEventListener('click', ()=>{
-//   console.log('work');
-// })
-
